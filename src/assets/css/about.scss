@@ -1,0 +1,21 @@
+section#about {
+  min-height: calc(100vh - 106px);
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
+  align-items: center;
+  justify-content: center;
+  & > h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  & > p {
+    margin: 0;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}

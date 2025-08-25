@@ -1,0 +1,11 @@
+@use "./main.scss";
+@use "./nav.scss";
+@use "./header.scss";
+@use "./about.scss";
+@use "./contact.scss";
+@use "./footer.scss";
+
+@font-face {
+  font-family: Bueno;
+  src: url("../fonts/bueno-regular.ttf") format("truetype");
+}

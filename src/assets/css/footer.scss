@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  & > ul {
+    display: flex;
+    gap: 1rem;
+    & > li {
+      list-style: none;
+      & > a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
